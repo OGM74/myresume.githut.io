@@ -9,3 +9,58 @@ body {
     padding: 0;
 }
 
+.navbar {
+    height: 124vh;
+    width: 100%;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: bottom;
+    padding-right: 200px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px white; 
+}
+
+.span-lo {
+    color: #C700A9;
+}
+
+.span-go {
+    color: #C700A9;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px white;
+}
+
+nav ul li a:hover{
+    color:#C700A9;
+    transition: .4s;    
+}
