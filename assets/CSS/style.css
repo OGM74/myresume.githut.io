@@ -1,7 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,15 +10,14 @@ body {
     padding: 0;
 }
 
-.navbar {
+.header {
     height: 124vh;
     width: 100%;
     background-image: url("../img/header.png");
     background-size: cover;
-    background-position: center;
     object-fit: cover;
     object-position: bottom;
-    padding-right: 200px;
+    max-width: 100%;
 }
 
 
@@ -97,10 +97,12 @@ h4 {
     height: auto;
     width: 430px;
     top: -23px;
+    max-width: 100%;
 }
 
 .about-text {
     width: 550px;
+    font-family: 'Montserrat', sans-serif;
 }
 .main {
     width: 1130px;
@@ -118,4 +120,40 @@ h4 {
     font-size: 18px;
     margin-bottom:45px;
     text-align: justify;
-}    
+}   
+
+.education {
+    background-color: #FFEE12;
+    height: 60vh;
+}
+
+.edu-text {
+    color: #C700A9;
+    font-family: 'Tektur', sans-serif;
+    text-align: center;
+    font-size: 40px; 
+}
+
+.education-flex {
+    display: flex;
+    justify-content: space-around;
+    color: #000000;
+    gap: 16px;
+    padding: 3%;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.education-flex h2 {
+    text-align: center;
+    margin-right: 4px;
+    font-family: 'Tektur', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.education-flex h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
