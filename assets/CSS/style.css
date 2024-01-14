@@ -32,10 +32,10 @@ nav {
 
 .logo {
     color: rgb(0, 0, 0);
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 1px;
     cursor: pointer;
-    text-shadow: 1px 1px 2px white; 
+    text-shadow: 1px 1px 2px white;
 }
 
 .span-lo {
@@ -46,21 +46,76 @@ nav {
     color: #C700A9;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a{
+nav ul li a {
     color: rgb(0, 0, 0);
-    text-decoration:none;
+    text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
     text-shadow: 1px 1px 2px white;
+    font-size: 26px;
 }
 
-nav ul li a:hover{
-    color:#C700A9;
-    transition: .4s;    
+nav ul li a:hover {
+    color: #C700A9;
+    transition: .4s;
 }
+
+.content {
+    font-family: 'Tektur', sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 19%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    color: #C700A9;
+    text-shadow: 1px 1px 2px white;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 100px;
+    background-color: #FDFCE9;
+}
+
+.about img {
+    position: relative;
+    height: auto;
+    width: 430px;
+    top: -23px;
+}
+
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom:45px;
+    text-align: justify;
+}    
